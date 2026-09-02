@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نومة | رحلة نوم كاملة</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: #201d1c;
+    color: #e8e4e1;
+    line-height: 1.7;
+  }
+  .hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: #2b2624;
+  }
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #b3302a;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #b0aba7;
+    margin-bottom: 32px;
+  }
+  .btn {
+    display: inline-block;
+    background: #7a2420;
+    color: #fff;
+    padding: 14px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  .btn:hover { background: #5c1b18; }
+
+  section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+  .problem { text-align: center; }
+  .problem h2 { font-size: 28px; margin-bottom: 16px; color: #e8e4e1; }
+  .problem p { font-size: 17px; color: #b0aba7; max-width: 600px; margin: 0 auto; }
+
+  .products { background: #262220; }
+  .products h2 { text-align: center; font-size: 28px; margin-bottom: 40px; color: #e8e4e1; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .card {
+    background: #201d1c;
+    border-radius: 16px;
+    padding: 28px 20px;
+    text-align: center;
+    border: 1px solid #3a3532;
+  }
+  .icon {
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background: #3a2422;
+    margin: 0 auto 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+  }
+  .card h3 { font-size: 18px; margin-bottom: 8px; color: #e8e4e1; }
+  .card p { font-size: 14px; color: #b0aba7; }
+
+  .why { background: #2b2624; text-align: center; }
+  .why h2 { font-size: 28px; margin-bottom: 24px; color: #e8e4e1; }
+  .points { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+  .point { max-width: 220px; }
+  .point strong { display: block; font-size: 16px; margin-bottom: 6px; color: #e8e4e1; }
+  .point span { font-size: 14px; color: #b0aba7; }
+
+  .cta { text-align: center; padding: 80px 20px; }
+  .cta h2 { font-size: 32px; margin-bottom: 12px; color: #e8e4e1; }
+  .cta p { font-size: 17px; color: #b0aba7; margin-bottom: 28px; }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    color: #7a756f;
+    background: #2b2624;
+  }
+
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 34px; }
+    .points { gap: 20px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>نومة</h1>
+    <p>رحلة نوم كاملة، من الاسترخاء للاستيقاظ</p>
+    <a href="https://wa.me/97337662272" class="btn">اطلب الآن عبر واتساب</a>
+  </div>
+
+  <section class="problem">
+    <h2>نوم أفضل، بدون تعقيد</h2>
+    <p>منبه يزعج زوجتك، شخير يقطع نومك، وحر الليل يخليك تتقلب؟ نومة جمعتلك 3 حلول بسيطة في باكج واحد.</p>
+  </section>
+
+  <section class="products">
+    <h2>ماذا يحتوي الباكج</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="icon"><img src="data:image/jpeg;base64,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" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+        <h3>ساعة الاهتزاز</h3>
+        <p>منبه صامت يوقظك بالاهتزاز، بدون ما يزعج اللي حواليك.</p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <svg width="34" height="34" viewBox="0 0 34 34"><ellipse cx="17" cy="17" rx="14" ry="8" fill="none" stroke="#e8e4e1" stroke-width="2"/><ellipse cx="10" cy="17" rx="4" ry="6" fill="#e8e4e1" opacity="0.8"/><ellipse cx="24" cy="17" rx="4" ry="6" fill="#e8e4e1" opacity="0.8"/></svg>
+        </div>
+        <h3>موسع الأنف</h3>
+        <p>يفتح ممرات التنفس، يقلل الشخير، ويخليك تتنفس بحرية طول الليل.</p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <svg width="34" height="34" viewBox="0 0 34 34"><rect x="4" y="10" width="26" height="16" rx="6" fill="none" stroke="#e8e4e1" stroke-width="2"/><path d="M9 16 Q13 13 17 16 T25 16" fill="none" stroke="#e8e4e1" stroke-width="1.5"/><path d="M9 20 Q13 17 17 20 T25 20" fill="none" stroke="#e8e4e1" stroke-width="1.5"/></svg>
+        </div>
+        <h3>غطاء وسادة مبرد</h3>
+        <p>جل تبريد طبيعي بدون كهرباء، يخليك تنام بارد ومنتعش حتى في أشد ليالي الصيف.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <h2>3 مشاكل، حل واحد</h2>
+    <div class="points">
+      <div class="point">
+        <strong>توفير حقيقي</strong>
+        <span>بدل ما تشتري كل منتج لحاله من مكان مختلف</span>
+      </div>
+      <div class="point">
+        <strong>شحن سريع</strong>
+        <span>توصيل داخل البحرين خلال أيام قليلة</span>
+      </div>
+      <div class="point">
+        <strong>جودة مضمونة</strong>
+        <span>منتجات مختارة بعناية لتجربة نوم أفضل</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>جاهز تنام أحسن؟</h2>
+    <p>اطلب باكج نومة الآن واستمتع بنوم هادئ، بارد، ومريح.</p>
+    <a href="https://wa.me/97337662272" class="btn">اطلب عبر واتساب</a>
+  </section>
+
+  <footer>
+    نومة © 2026 — البحرين
+  </footer>
+
+</body>
+</html>
